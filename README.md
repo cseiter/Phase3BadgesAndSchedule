@@ -65,3 +65,4 @@ of the `assign_rooms` method to the screen.
   `assign_rooms` is an array of room assignments, how can you print out each
   assignment? You'll need to iterate over your array of room assignments in
   order to `puts` out each individual assignment.
+# Phase3BadgesAndSchedule
