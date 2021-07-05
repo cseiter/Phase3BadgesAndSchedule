@@ -16,9 +16,16 @@ def assign_rooms(array_names)
     return room_array
 end
 
+def printer(array_names)
+    batch_badge_creator(array_names).each { |name_badge| puts name_badge}
+    assign_rooms(array_names).each { |room_assignment| puts room_assignment}
+end
+
 badge_maker("sam")
 
 array_names = ["sam","dean","cas","bobby"]
 
 batch_badge_creator(array_names)
 assign_rooms(array_names)
+
+printer(array_names)
